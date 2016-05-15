@@ -1,5 +1,6 @@
-$(document).ready(function{
-  var show_error, stripeResposneHandler, submitHandler;
+$(document).ready(function() {
+
+  var show_error, stripeResponseHandler, submitHandler;
 
   submitHandler = function (event) {
      var $form = $(event.target);
@@ -38,7 +39,6 @@ $(document).ready(function{
 
     return false;
   };
-
   show_error = function (message) {
     if($("#flash-messages").size() < 1){
       $('div.container.main div:first').prepend("<div id='flash-messages'></div>")
@@ -47,5 +47,4 @@ $(document).ready(function{
     $('.alert').delay(5000).fadeOut(3000);
     return false;
   };
-
 });
