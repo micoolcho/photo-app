@@ -22,6 +22,9 @@ gem 'devise-bootstrap-views'
 # Use Figaro to handle Rails config using ENV
 gem 'figaro'
 
+# User Stripe for payment
+gem 'stripe'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
